@@ -1,0 +1,19 @@
+{
+    "name": "christopher/sdgateway",
+    "description": "Connect to SDGateway Android app and send SMS",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Christopher Vistal",
+            "email": "christophervistal26@gmail.com",
+            "role": "Developer"
+        }
+    ],
+     "autoload": {
+        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+
+}
